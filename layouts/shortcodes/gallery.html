@@ -1,0 +1,53 @@
+{{ $images := .Params.images }}
+{{ $cols := .Params.cols | default "3" }}
+{{ $gap := .Params.gap | default "1rem" }}
+
+{{ if reflect.IsSlice $images }}
+  {{ range $images }}
+    {{ . }}
+  {{ end }}
+{{ else if $images }}
+  {{ $imageList := strings.Split $images "," }}
+  <div class="gallery-container" style="--cols: {{ $cols }}; --gap: {{ $gap }};">
+    {{ range $imageList }}
+      <div class="gallery-item">
+        <img src="{{ strings.TrimSpace . }}" alt="Gallery image" loading="lazy" />
+      </div>
+    {{ end }}
+  </div>
+
+  <style>
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(var(--cols, 3), 1fr);
+      gap: var(--gap, 1rem);
+      width: 100%;
+      margin: -2rem 0;
+    }
+
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 0.5rem;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      border-radius: 0.75em;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+{{ end }}
