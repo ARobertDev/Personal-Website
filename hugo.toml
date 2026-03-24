@@ -1,3 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://themartin.us'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Andrew Martin'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+theme = 'ananke'
