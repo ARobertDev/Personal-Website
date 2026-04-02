@@ -6,4 +6,4 @@ A Mechanical Engineering Undergraduate with experience in aerospace and power en
 
 Personal hobbies including high powered rocketry, electronics, vehicle restoration, homelabbing, web development, and anything technology or DIY.
 
-![Showcase](/img/RangerI_Launch.jpg)
+![Showcase](/img/landscapelaunch.jpg)
