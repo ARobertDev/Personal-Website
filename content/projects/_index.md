@@ -1,7 +1,5 @@
 ---
-Title: "Ranger I"
+Title: "Projects"
 ---
 
-My NAR HPR L1 Certification Vehicle.
-
-![Showcase](/img/RangerI_Launch.jpg)
+Hey! Here's what I've been working on.
