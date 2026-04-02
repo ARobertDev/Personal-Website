@@ -5,13 +5,13 @@ description: "My National Association of Rocketry (NAR) High Power Rocket (HPR) 
 summary: "My National Association of Rocketry (NAR) High Power Rocket (HPR) L1 Certification Vehicle."
 tags: ["rocket", "rocketry", "engineering", "hobby"]
 ---
-
 {{< lead >}}
 My National Association of Rocketry (NAR) High Power Rocket L1 Certification Vehicle.
 {{< /lead >}}
 
 ## Only YOU can start forest fires.
-
-Or at least, thats what the slogan is for Ranger I.
+*Or at least, thats what the slogan is for Ranger I.*
 
 ![Ranger I](landscapelaunch.jpg)
+
+When I set out designing Ranger I, the goal was very simple - make a vehicle capable of flying cameras and experimental electronic payloads in the same bay. Additionally, the vehicle had to use a simple, reliable deployment mechanism: motor ejection.
