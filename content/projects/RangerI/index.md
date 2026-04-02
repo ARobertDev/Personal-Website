@@ -6,7 +6,7 @@ tags: ["rocket", "rocketry", "engineering", "hobby"]
 ---
 
 {{< lead >}}
-My National Association of Rocketry (NAR) High Power Rocket (HPR) L1 Certification Vehicle.
+My National Association of Rocketry (NAR) High Power Rocket L1 Certification Vehicle.
 {{< /lead >}}
 
-![Ranger I](thumb.jpg)
+![Ranger I](landscapelaunch.jpg)
