@@ -56,11 +56,11 @@ fingerprintAlgorithm = "sha256"
   # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo", "xing", "bluesky"]
 
 [list]
-  showBreadcrumbs = false
-  showSummary = false
+  showBreadcrumbs = true
+  showSummary = true
   showTableOfContents = false
-  showTaxonomies = false
-  groupByYear = true
+  showTaxonomies = true
+  groupByYear = false
   paginationWidth = 1
 
 [sitemap]
